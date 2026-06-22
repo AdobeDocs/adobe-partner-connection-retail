@@ -1,0 +1,12 @@
+---
+name: Staging
+on:
+  workflow_dispatch:
+
+jobs:
+  deployment:
+    name: Deployment
+    uses: AdobeDocsPrivate/adp-devsite-workflow-private/.github/workflows/deploy-v2.yml@main
+    secrets: inherit
+    with:
+      env: stg
