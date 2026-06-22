@@ -1,5 +1,5 @@
 - pathPrefix:
-    - /dev-docs-template/
+    - /adobe-partner-connection-retail/
 
 - pages:
     - [Analytics](index.md)
