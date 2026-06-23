@@ -28,7 +28,7 @@ Adobe Partner Retail exposes the following partner-facing API:
 
 | API | Purpose |
 |---|---|
-| [Product claim API](../api/index.md) | Initiates a product claim on behalf of a customer. Returns a URL that takes the customer into Adobe to sign in, consent, and gain access. |
+| [Product claim API](./api/index.md) | Initiates a product claim on behalf of a customer. Returns a URL that takes the customer into Adobe to sign in, consent, and gain access. |
 
 ## How a claim works
 
@@ -66,5 +66,5 @@ The following terms are essential for understanding the integration model.
 ## Related documents
 
 - [Getting Started](./getting-started/index.md)
-- [Adobe Partner Retail APIs](../api/index.md)
-- [Support](../support/index.md)
+- [Adobe Partner Retail APIs](./api/index.md)
+- [Support](./support/index.md)

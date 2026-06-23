@@ -22,7 +22,7 @@ Authorization: Bearer {ACCESS_TOKEN}
 X-API-Key: {CLIENT_ID}
 ```
 
-See [Getting Started](../guides/getting-started/index.md) for instructions on obtaining an access token.
+See [Getting Started](../getting-started/index.md) for instructions on obtaining an access token.
 
 ## Product Claim API
 
@@ -229,6 +229,6 @@ Verify the `offer_id` against the values provided during onboarding. Contact you
 
 ## Related Documents
 
-- [Overview](../guides/index.md)
-- [Getting started](../guides/getting-started/index.md)
+- [Overview](../index.md)
+- [Getting started](../getting-started/index.md)
 - [Support](../support/index.md)

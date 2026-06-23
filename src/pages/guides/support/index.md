@@ -1,10 +1,3 @@
----
-title: Support - Adobe Partner Connection Retail
-description: This is the support page of Adobe Partner Connection Retail Program
----
-
-<Superhero slots="heading, text" background="rgb(19, 93, 183)"/>
-
 # Support
 
 For questions about the Adobe Partner Connection Retail integration, contact your Adobe Partner Connection Retail engineering team. They are your primary point of contact for onboarding, configuration, and ongoing operational support.
@@ -56,6 +49,6 @@ When contacting support, include the following to speed up resolution:
 
 ## Related documents
 
-- [Overview](../guides/index.md)
-- [Getting Started](../guides/getting-started/index.md)
+- [Overview](../index.md)
+- [Getting Started](../getting-started/index.md)
 - [Adobe Partner Retail APIs](../api/index.md)

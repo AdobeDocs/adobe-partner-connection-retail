@@ -16,7 +16,7 @@ Adobe Partner Connection Retail is a subscription bundling program that lets tel
 #### Resources
 
 * [Getting started](./guides/getting-started/index.md)
-* [API reference](./api/index.md)
+* [API reference](./guides/api/index.md)
 
 ## Overview
 
@@ -30,4 +30,4 @@ The B2C partnership layer orchestrates end-to-end provisioning across identity, 
 
 - [Adobe Partner Connection Retail Program overview](./guides/index.md)
 - [Getting started](./guides/getting-started/index.md)
-- [API reference](./api/index.md)
+- [API reference](./guides/api/index.md)
