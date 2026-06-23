@@ -1,24 +1,70 @@
----
-title: Guides - Analytics
-description: This is the guides overview page of  Analytics 
----
+# Overview
 
-# Get Started
+Adobe Partner Retail supports several consumer-facing distribution channels, unified by a common partner integration model and a consistent provisioning experience. The channels differ mainly in how the offer reaches the consumer; once a customer claims an offer, the experience of signing in, providing consent, and gaining access to Adobe products remains consistent across all channels.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada feugiat enim vel facilisis. Nunc eget enim eu lacus lobortis tincidunt a nec est. Nunc quis sapien quis orci rutrum sollicitudin. Nullam vehicula ultricies mauris, id aliquam justo aliquam vitae. Nam quis tincidunt ante. Curabitur sagittis aliquam elit, at auctor enim maximus et. Praesent in lectus facilisis, tempor magna eget, bibendum est. In quis ornare mi. Donec vestibulum viverra magna, non mollis leo vestibulum sit amet. Aenean euismod nulla augue, sit amet vehicula nibh faucibus vel. Fusce at est lacus. Nullam ante nulla, elementum nec ornare in, placerat luctus enim. Suspendisse vitae lacinia nibh. Pellentesque porta accumsan est at volutpat. Nulla aliquam dictum faucibus.
+| Channel | Description |
+|---|---|
+| Telecom | Telecommunications operators bundle Adobe into mobile or broadband plans, carried on the customer's regular invoice. The partner initiates the offer, and the customer signs in and is provisioned with Adobe. |
+| OEM | Offers that come with a new device, pre-loaded or presented at first setup. Follows the same claim and provision experience as other partner-led channels. |
+| Affinity | Adobe products are offered as a membership or loyalty benefit through brands, financial institutions, and associations, using the same shared claim and provisioning flow. |
 
-## Authentication
+## Key value propositions
 
-Mauris pellentesque ornare nulla. Proin fermentum elementum velit non consequat. Donec euismod nisl sed tellus sagittis, a consequat leo rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse neque justo, porttitor eget volutpat sed, suscipit nec mauris. Etiam nec egestas purus. Praesent suscipit in elit cursus consectetur. Duis blandit pulvinar odio, eget volutpat magna vestibulum interdum. Ut sed ultrices risus, vel gravida nisi. Sed vitae rutrum felis. Aliquam at eros molestie, sagittis augue sed, venenatis erat. Praesent at consectetur tellus, ut vehicula nunc. Pellentesque aliquet condimentum neque, fermentum consequat neque viverra vel. Aliquam accumsan dignissim turpis vitae consequat. Aenean id justo vel diam sollicitudin posuere. Sed eu mauris ac elit porta commodo et varius sem.
+Partners can currently initiate a product claim on behalf of a customer using the `Product Claim API`, which returns an `experience_url` that directs the customer to Adobe to sign in, provide consent, and gain access.
 
-## OAuth
+The Adobe Partner Connection Retail roadmap will unlock additional value in future releases, including the capabilities outlined below.
 
-Donec imperdiet tempus ligula, sit amet pellentesque justo pharetra quis. Duis sed lacus diam. Maecenas sollicitudin diam sit amet pharetra placerat. Aliquam egestas lectus et tellus sagittis, venenatis finibus nisi volutpat. Cras laoreet, nisl sed faucibus laoreet, nibh arcu pretium enim, eget elementum ligula tellus vitae lorem. Aenean consequat in lorem at venenatis. Phasellus consequat dolor in libero vulputate rutrum. Nulla sit amet augue fringilla, elementum libero eget, accumsan velit. Suspendisse et lorem ornare, congue justo vel, ultrices felis. Ut et aliquet eros. Nulla facilisi. Nulla vitae velit a enim egestas eleifend. Etiam malesuada orci non mollis vulputate. Praesent id augue eget sapien lobortis bibendum. Praesent placerat tellus dui, vel facilisis magna condimentum in.
+**Future capabilities and benefits**
 
-<InlineAlert variant="info" slots="text"/>
+| Stakeholder | What they get | Powered by |
+|---|---|---|
+| Retail partners (telecom, OEM, and affinity) | Distribute and bundle Adobe subscriptions through their own channels and invoicing relationships, with fast, standardized onboarding instead of bespoke per-partner builds | Product claim API, Subscription Management API |
+| End consumers | Seamless activation and entitlement to Adobe products regardless of which partner channel they arrived through, under a single Adobe identity | Orchestrated provisioning across identity, consent, entitlement, and fulfillment |
+| Partner operations and support | Real-time visibility into subscription state and lifecycle changes to detect and resolve issues quickly | Notifications API, Subscription Management API |
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna tellus, fringilla sit amet lorem eget, dignissim pellentesque ligula. Donec nec dolor vitae leo laoreet aliquam vehicula at dui. Integer in tortor lacus. Aliquam convallis, lorem ac consectetur sodales, tellus.
+## API at a glance
 
-## JWT
+Adobe Partner Retail exposes the following partner-facing API:
 
-Donec imperdiet tempus ligula, sit amet pellentesque justo pharetra quis. Duis sed lacus diam. Maecenas sollicitudin diam sit amet pharetra placerat. Aliquam egestas lectus et tellus sagittis, venenatis finibus nisi volutpat. Cras laoreet, nisl sed faucibus laoreet, nibh arcu pretium enim, eget elementum ligula tellus vitae lorem. Aenean consequat in lorem at venenatis. Phasellus consequat dolor in libero vulputate rutrum. Nulla sit amet augue fringilla, elementum libero eget, accumsan velit. Suspendisse et lorem ornare, congue justo vel, ultrices felis. Ut et aliquet eros. Nulla facilisi. Nulla vitae velit a enim egestas eleifend. Etiam malesuada orci non mollis vulputate. Praesent id augue eget sapien lobortis bibendum. Praesent placerat tellus dui, vel facilisis magna condimentum in.
+| API | Purpose |
+|---|---|
+| [Product claim API](../api/index.md) | Initiates a product claim on behalf of a customer. Returns a URL that takes the customer into Adobe to sign in, consent, and gain access. |
+
+## How a claim works
+
+![alt text](adobe_partner_connection_retail_integration_flow.png)
+
+The following steps describe the end-to-end claim and provisioning flow for affinity and OEM programs.
+
+1. Customer claims the offer through the partner backend
+2. Partner authenticates with Adobe IMS and receives an access token
+3. Partner calls the Claim API; Adobe validates the request, resolves the campaign, and generates a redemption code. The API returns an `experience_url` that includes the redemption code
+4. Partner redirects the customer to the Adobe Redemption UI using the experience_url
+5. Customer signs in or creates an Adobe account and provides consent
+6. Entitlement is provisioned, and the customer is redirected to the Adobe product
+
+For affinity and OEM programs, the redemption code is embedded in the `experience_url` and is visible to both the partner for inventory tracking and reporting, and the customer as a reference for Adobe support.
+
+## Key concepts
+
+The following terms are essential for understanding the integration model.
+
+| Term | Description |
+|---|---|
+| `partner_reference_id` | A unique identifier generated per customer and product combination, used for idempotency, duplicate detection, and business reporting. |
+| `offer_id` | The Adobe offer being claimed by the customer, such as a one-month Adobe Express subscription, provided during partner onboarding. |
+| `experience_url` | The Adobe Redemption UI URL returned by the Product Claim API. For affinity and OEM, contains the pre-populated redemption code in the `rc` query parameter. |
+| `rc` | The redemption code embedded in `experience_url`. Visible to both partner (for inventory tracking) and customer (as Adobe support reference). |
+
+## Integration environments
+
+| Environment | Base URL |
+|---|---|
+| Sandbox (Stage) | `https://partners-stage.adobe.io/retail` |
+| Production | `https://partners.adobe.io/retail` |
+
+## Related documents
+
+- [Getting Started](./getting-started/index.md)
+- [Adobe Partner Retail APIs](../api/index.md)
+- [Support](../support/index.md)

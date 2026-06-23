@@ -7,90 +7,27 @@ contributors:
 
 <Superhero slots="heading, text"/>
 
-# Analytics API
+# Adobe Partner Connection Retail
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. 
+Adobe Partner Connection Retail is a subscription bundling program that lets telecommunications, OEM, and affinity partners include Adobe products in their own offers. It allows customers to claim and access Adobe products using a single sign-in experience.
 
 <Resources slots="heading, links"/>
 
 #### Resources
 
-* [Quickstart Guide](https://developer.adobe.com)
-* [Analytics Github Repo](https://github.com/AdobeDocs/dev-site)
+* [Getting started](./guides/getting-started/index.md)
+* [API reference](./api/index.md)
 
 ## Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
+Adobe's B2C retail partnerships extend Adobe products to consumers through trusted third parties such as telecom operators, OEMs, and affinity partners, who distribute and bundle Adobe subscriptions through their own sales channels and invoicing  relationships.
 
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
+The B2C partnership layer orchestrates end-to-end provisioning across identity, consent, entitlement, and fulfillment, ensuring that consumers are activated seamlessly regardless of the partner channel through which they engage.
 
 ## Discover
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-### Get Started
-
-[Quickstart Guide](guides/index.md)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
-
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
-
-
-<DiscoverBlock slots="heading, link, text"/>
-
-### Guides
-
-[Calculated Metrics API](guides/dummy_metrics_api/index.md)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
-
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
-
-
-<DiscoverBlock slots="link, text"/>
-
-[Segments API](guides/dummy_oauth_client/index.md)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
-
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
-
-<DiscoverBlock slots="link, text"/>
-
-[Reporting Guide API](guides/dummy_using_postman/index.md)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
-
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
-
-<DiscoverBlock slots="link, text"/>
-
-[Migrating from 1.4 to 2.0](guides/migrating/index.md)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
-
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
-
-<DiscoverBlock width="100%" slots="heading, link, text"/>
-
-### API References
-
-[Try the API](api/index.md)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
-
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
-
-## Contributing
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
-
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
-
-
-## API Requests & Rate Limits
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
-
-Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugiat eros sem, tristique sollicitudin lacus consectetur id. Cras tortor orci, venenatis ac vulputate sit amet, auctor sed ex. Ut vel convallis felis. Etiam luctus, diam sed venenatis tincidunt, ipsum turpis volutpat eros, nec interdum arcu mi molestie dolor. Donec id mauris sed odio mollis viverra sed lobortis quam. Aliquam mi metus, ultricies sagittis hendrerit eget, volutpat vel dui. Proin id urna hendrerit, scelerisque arcu sit amet, egestas neque. Sed fringilla odio tincidunt sapien malesuada facilisis.
+- [Adobe Partner Connection Retail Program overview](./guides/index.md)
+- [Getting started](./guides/getting-started/index.md)
+- [API reference](./api/index.md)
