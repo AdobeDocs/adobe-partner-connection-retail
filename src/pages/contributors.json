@@ -1,7 +1,7 @@
 {
-  "total": 8,
+  "total": 6,
   "offset": 0,
-  "limit": 8,
+  "limit": 6,
   "data": [
     {
       "page": "/",
@@ -10,14 +10,6 @@
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
       "lastUpdated": "6/24/2026"
-    },
-    {
-      "page": "/api/",
-      "avatars": [
-        "https://avatars.githubusercontent.com/u/160894503?v=4",
-        "https://avatars.githubusercontent.com/u/41382203?v=4"
-      ],
-      "lastUpdated": "6/23/2026"
     },
     {
       "page": "/config",
@@ -53,14 +45,6 @@
       "page": "/guides/support/",
       "avatars": [
         "https://avatars.githubusercontent.com/u/160894503?v=4"
-      ],
-      "lastUpdated": "6/23/2026"
-    },
-    {
-      "page": "/support/",
-      "avatars": [
-        "https://avatars.githubusercontent.com/u/160894503?v=4",
-        "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
       "lastUpdated": "6/23/2026"
     }
