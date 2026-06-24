@@ -1,6 +1,6 @@
 # Getting started
 
-Before calling any Adobe Partner Retail API, your backend must obtain an OAuth 2.0 access token from Adobe Identity Management Services (IMS). This token authenticates your server-to-server requests.
+Before calling any Adobe Partner Connection Retail API, your backend must obtain an OAuth 2.0 access token from Adobe Identity Management Services (IMS). This token authenticates your server-to-server requests.
 
 ## Prerequisites
 

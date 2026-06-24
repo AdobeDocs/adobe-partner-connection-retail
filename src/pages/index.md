@@ -1,8 +1,8 @@
 ---
-title: Overview - Analytics
-description: This is the overview page of Analytics
+title: Adobe Partner Connection Retail
+description: This is the overview page of Adobe Partner Connection Retail
 contributors:
-  - https://github.com/icaraps 
+  - https://github.com/lijumjose
 ---
 
 <Superhero slots="heading, text"/>
