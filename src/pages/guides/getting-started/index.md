@@ -91,6 +91,7 @@ Both headers are required. Requests that are missing either header will be rejec
 
 ## Next steps
 
-After obtaining an access token, proceed to call the [Product Claim API](../api/index.md) to initiate a product claim.
-
+- After obtaining an access token, proceed to call the [Product Claim API](../api/product-claim.md) to initiate a product claim.
+- For subscription lifecycle management, use the [Get Subscription API](../api/get-subscription.md). 
+- To retrieve status and term dates, and the [Update Subscription API](../api/update-subscription.md) to renew or cancel a subscription.
 - [Adobe Partner Retail APIs](../api/index.md)
