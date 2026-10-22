@@ -10,11 +10,13 @@ Adobe Partner Retail supports several consumer-facing distribution channels, uni
 
 ## Key value propositions
 
-Partners can currently initiate a product claim on behalf of a customer using the `Product Claim API`, which returns an `experience_url` that directs the customer to Adobe to sign in, provide consent, and gain access.
+Partners can currently initiate a product claim on behalf of a customer using the [Product Claim API](./api/product-claim.md), which returns an `experience_url` that directs the customer to Adobe to sign in, provide consent, and gain access.
 
-The Adobe Partner Connection Retail roadmap will unlock additional value in future releases, including the capabilities outlined below.
+The [Get Subscription API](./api/get-subscription.md) retrieves subscription status and term dates. The [Update Subscription API](./api/update-subscription.md) supports renewal and cancellation, including cancellation policies and handling modes. Both update variants are available in sandbox.
 
-**Future capabilities and benefits**
+The program combines the current APIs with broader capabilities planned for future releases.
+
+**Current and planned capabilities and benefits**
 
 | Stakeholder | What they get | Powered by |
 |---|---|---|
@@ -24,11 +26,13 @@ The Adobe Partner Connection Retail roadmap will unlock additional value in futu
 
 ## API at a glance
 
-Adobe Partner Retail exposes the following partner-facing API:
+Adobe Partner Retail exposes the following partner-facing APIs:
 
 | API | Purpose |
 |---|---|
-| [Product claim API](./api/index.md) | Initiates a product claim on behalf of a customer. Returns a URL that takes the customer into Adobe to sign in, consent, and gain access. |
+| [Product claim API](./api/product-claim.md) | Initiates a product claim on behalf of a customer. Returns a URL that takes the customer into Adobe to sign in, consent, and gain access. |
+| [Get Subscription API](./api/get-subscription.md) | Retrieves subscription status, offer, and term dates using the partner reference ID. |
+| [Update Subscription API](./api/update-subscription.md) | Renews or cancels a subscription through a single API with two operation types. |
 
 ## How a claim works
 
