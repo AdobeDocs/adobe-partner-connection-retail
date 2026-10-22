@@ -1,7 +1,7 @@
 {
-  "total": 8,
+  "total": 11,
   "offset": 0,
-  "limit": 8,
+  "limit": 11,
   "data": [
     {
       "page": "/",
@@ -25,7 +25,7 @@
         "https://avatars.githubusercontent.com/u/160894503?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
-      "lastUpdated": "6/23/2026"
+      "lastUpdated": "10/22/2026"
     },
     {
       "page": "/guides/",
@@ -33,21 +33,42 @@
         "https://avatars.githubusercontent.com/u/160894503?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
-      "lastUpdated": "6/23/2026"
+      "lastUpdated": "10/22/2026"
     },
     {
       "page": "/guides/api/",
       "avatars": [
         "https://avatars.githubusercontent.com/u/160894503?v=4"
       ],
-      "lastUpdated": "6/23/2026"
+      "lastUpdated": "10/22/2026"
+    },
+    {
+      "page": "/guides/api/get-subscription",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/160894503?v=4"
+      ],
+      "lastUpdated": "10/22/2026"
+    },
+    {
+      "page": "/guides/api/product-claim",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/160894503?v=4"
+      ],
+      "lastUpdated": "10/22/2026"
+    },
+    {
+      "page": "/guides/api/update-subscription",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/160894503?v=4"
+      ],
+      "lastUpdated": "10/22/2026"
     },
     {
       "page": "/guides/getting-started/",
       "avatars": [
         "https://avatars.githubusercontent.com/u/160894503?v=4"
       ],
-      "lastUpdated": "6/24/2026"
+      "lastUpdated": "10/22/2026"
     },
     {
       "page": "/guides/support/",
